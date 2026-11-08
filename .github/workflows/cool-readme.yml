@@ -21,6 +21,12 @@ jobs:
         with:
           token: ${{ secrets.CARDS_TOKEN }}
           output: ${{ runner.temp }}/cards
+      # The same cards in the classic look, published with a classic- prefix.
+      - uses: pedrocatalao/github-cool-readme@4b5612f2aa2da65cc4012b3fb006b646abb33cf0 # v1
+        with:
+          token: ${{ secrets.CARDS_TOKEN }}
+          config: cool-readme-classic.yml
+          output: ${{ runner.temp }}/classic
       # The cards live on their own branch, as a single commit replaced on each change, so they
       # don't add to the history of the main branch.
       - name: Publish the cards on the cards branch
@@ -30,6 +36,7 @@ jobs:
           git fetch --quiet --depth 1 origin cards:refs/remotes/origin/cards 2>/dev/null || true # not there on the first run
           git switch --quiet --orphan cards
           cp "$RUNNER_TEMP"/cards/*.svg .
+          for f in "$RUNNER_TEMP"/classic/*.svg; do [ -e "$f" ] && cp "$f" "classic-$(basename "$f")"; done
           git add -- *.svg
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

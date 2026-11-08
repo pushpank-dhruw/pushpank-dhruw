@@ -1,0 +1,14 @@
+# The same cards in GitHub's classic look, published as classic-*.svg on the cards branch.
+# Keep user, show, count and cards in step with cool-readme.yml; only look differs.
+user: pushpank-dhruw
+show: [summary, languages, weekly, streaks]
+count:
+  private: true
+  orgs: true
+look:
+  style: classic  # GitHub's own look, following the viewer's light or dark theme
+  color: github
+cards:
+  languages:
+    repos:
+      notes: 0    # Markdown notes; GitHub counts only its one script, so it read as all JavaScript
