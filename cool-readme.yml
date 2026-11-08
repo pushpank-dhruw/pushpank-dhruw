@@ -1,0 +1,9 @@
+# Settings for the README stat cards: https://github.com/pedrocatalao/github-cool-readme#settings
+user: pushpank-dhruw
+show: [summary, languages, weekly, streaks]
+count:
+  private: true   # private repos count toward the totals; their names never appear
+  orgs: true      # 3levelhq work counts too
+look:
+  style: classic  # GitHub's own look, following the viewer's light or dark theme
+  color: github
