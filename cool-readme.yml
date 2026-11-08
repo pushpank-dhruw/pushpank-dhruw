@@ -7,3 +7,7 @@ count:
 look:
   style: classic  # GitHub's own look, following the viewer's light or dark theme
   color: github
+cards:
+  languages:
+    repos:
+      notes: 0    # Markdown notes; GitHub counts only its one script, so it read as all JavaScript
