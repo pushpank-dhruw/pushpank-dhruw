@@ -4,10 +4,7 @@ Design engineer in Raipur, India. I run [3Level](https://threelevel.in), a softw
 
 [pushpank.me](https://pushpank.me) · [X](https://x.com/pushpank1010)
 
-<!--
-Stat cards (github.com/pedrocatalao/github-cool-readme) go here once the
-"Update README cards" workflow has run once and created the cards branch.
-
+<!-- Stat cards: github.com/pedrocatalao/github-cool-readme, refreshed every 2 hours by .github/workflows/cool-readme.yml -->
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pushpank-dhruw/pushpank-dhruw/cards/summary-dark.svg">
@@ -28,4 +25,3 @@ Stat cards (github.com/pedrocatalao/github-cool-readme) go here once the
   <img src="https://raw.githubusercontent.com/pushpank-dhruw/pushpank-dhruw/cards/streaks-light.svg" width="400" alt="Streaks">
 </picture>
 </p>
--->
