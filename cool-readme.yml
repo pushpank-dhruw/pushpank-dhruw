@@ -5,7 +5,7 @@ count:
   private: true   # private repos count toward the totals; their names never appear
   orgs: true      # 3levelhq work counts too
 look:
-  style: classic  # GitHub's own look, following the viewer's light or dark theme
+  style: dotmatrix  # pinball-style dot display in GitHub's blue, following the viewer's light or dark theme
   color: github
 cards:
   languages:
